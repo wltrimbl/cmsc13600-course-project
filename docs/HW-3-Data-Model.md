@@ -70,7 +70,7 @@ This should run with no errors if your model is consistent.
 
 Sometimes the database will end up in a weird state if you make contradictory changes. In this assignment, it is safe to just remove the database file and re-run the code above.
 ```
-rm -Rf migrations db.sqlite 
+rm -R app/migrations db.sqlite 
 ```
 
 While this is an open-ended assignment, here are some things to think about.
