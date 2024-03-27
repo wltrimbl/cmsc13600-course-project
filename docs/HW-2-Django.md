@@ -10,7 +10,7 @@ Go into your app folder that you have cloned in the previous assignment.
 ```
 $ cd app
 ```
-Then inside the folder, create a virutal environment
+Then inside the folder, create a virtual environment
 ```
 $ virtualenv venv
 ```
@@ -48,7 +48,7 @@ If you are using conda, this should be:
 conda install -y Django pytest
 ```
 
-It is worth using this first week to read up on Django as we will be using it throughout the class [https://docs.djangoproject.com/en/4.1/intro/tutorial01/]. Each Django application is backed by a database. You need to create this database:
+It is worth using this first week to read up on Django as we will be using it throughout the class [https://docs.djangoproject.com/en/5.0/intro/tutorial01/]. Each Django application is backed by a database. You need to create this database:
 ```
 (venv) $ cd attendancechimp/
 (venv) $ python manage.py migrate

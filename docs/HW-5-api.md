@@ -2,7 +2,7 @@
 This week you will be implementing the basic API in AttendanceChimp. At the end of this week's work, you should be able to upload data and manually query it from the database. Each one of these API components will be implemented as a a simple web-form. You can pretty it up if you want to, but for now let's keep it simple. You will have two weeks to complete this part of the project.
 
 ## Reading
-Before you begin, you should read up on Django Views [https://docs.djangoproject.com/en/4.1/topics/http/views/] and [https://docs.djangoproject.com/en/4.1/topics/forms/]. Remember to add these views to `app/urls.py` when you are done.
+Before you begin, you should read up on Django Views [https://docs.djangoproject.com/en/5.0/topics/http/views/] and [https://docs.djangoproject.com/en/5.0/topics/forms/]. Remember to add these views to `app/urls.py` when you are done.
 
 As you implement this functionality, you may have to change your data model in `models.py`. Remember to run `python manage.py migrate` if you do. Also, you may have to create new templates as necessary. It is your responsibility to learn enough about Django to make it all work -- please do use online resources, the internet is your friend here.
 
