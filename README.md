@@ -4,11 +4,13 @@ This is a template repository.  You will use git to make a copy of these files, 
 
 ## Getting started: github classroom  
 
-Your first step will be to **fork** this template repository.  This (along with pull request creation and mangement) is a step that must be done on the github website; everything else can and should be done with git on the command line.  **Forking** creates a copy of the git repository and its history at the time of forking and gives you, the user, control over the copy.  
+Your first step will be to **fork** this template repository.  You can do this via a github classrooms invite link.   **Forking** and **pull requests** are steps that must be done on the github website; everything else can and should be done with git on the command line.  **Forking** creates a copy of the git repository and its history at the time of forking and gives you, the user, control over the copy.  
 
 Next, you need to make a **git clone** of your fork.  Do this on the command line:  open gitbash (on Windows) or Terminal (on Macos or linux), change directory to a location on your hard drive suitable to place your project, and enter
 
-git clone XXXXX
+```
+ $  git clone git@github.com:CMSC13600-Aut2024/cmsc13600-project-yourusername.git
+```
 
 You will make changes to your git history on your computer.  When you are ready to share your changes, you will use **git push** to share your local changes with the cloud.  
 
